@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serverless Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Serverless Blog</h1>
+    </header>
+
+    <section id="post-form">
+        <h2>Add a New Post</h2>
+        <input type="text" id="post-title" placeholder="Post Title" required>
+        <textarea id="post-content" placeholder="Write your blog post here..." required></textarea>
+        <button onclick="submitPost()">Submit Post</button>
+    </section>
+
+    <section id="posts">
+        <h2>All Posts</h2>
+        <div id="posts-container">
+            <!-- Posts will be dynamically inserted here -->
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
