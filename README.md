@@ -1,1 +1,1 @@
-# Aws-prep
+# Serverless Blog Website on AWS 
